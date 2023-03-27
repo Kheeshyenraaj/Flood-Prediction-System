@@ -1,0 +1,67 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500;700&display=swap');
+// @import url("https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css");
+
+.logo-img{
+    width: 120px;
+    margin-left: -60%;
+    // height: 100%;
+}
+
+.col-box{
+    // border-style: solid;
+    // border-color: black;
+}
+
+.title-word{
+    margin-left:-10.0em;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 250%;
+    // font-size: 20px;
+    font-weight: bold;
+    // color: white;
+    margin-top: 0.8em;
+}
+
+.card-title{
+    // width: 90%;
+    // padding-right: 10%;
+    background-color: rgba(54, 162, 235, 0.2);
+    margin-right: -1%;
+    // background-color: blue;
+}
+
+.popup-content {
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 50%;
+    padding: 5px;
+  }
+  .popup-arrow {
+    color: rgb(255, 255, 255);
+  }
+  [role='tooltip'].popup-content {
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+  
+  .popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  [data-popup='tooltip'].popup-overlay {
+    background: transparent;
+  }
+
+  .alignment{
+    text-align: right;
+    display: inline-block;
+    margin-right: -60%;
+  }
+  .label-name{
+    display: "inline-block"
+  }
+
+  input{
+    display: 'inline-block';
+    text-align: 'right';
+  }
